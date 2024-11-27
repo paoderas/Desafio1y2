@@ -1,0 +1,29 @@
+/*
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+//import App from './App';
+import reportWebVitals from './reportWebVitals';
+import './index.css';
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+*/
+
+import './index.css'; // O el archivo CSS donde hayas configurado Tailwind
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Pets from './Pets';  // Asegúrate de que la ruta sea correcta
+
+const root = ReactDOM.createRoot(document.getElementById('root')); // Asegúrate de que el elemento con id 'root' existe en tu HTML
+root.render(<Pets />);
