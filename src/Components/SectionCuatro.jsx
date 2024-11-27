@@ -11,7 +11,7 @@ const SectionCuatro = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="w-full md:w-1/2 bg-yellows py-6 px-6 md:mr-3 mb-2 md:mb-0">
-          <div>
+          <div classname="bg-rose-400">
             <i className="fa-solid fa-quote-right text-3xl"></i>
             <p className="text-sm md:text-base">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt quae aliquid ratione exercitationem,
